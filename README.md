@@ -8,7 +8,8 @@ or
 pip install easy_arg_parse
 
 # usage example
-program_that_needs_arguments.py
+```
+# program_that_needs_arguments.py
 from easy_arg_parse import easy_arg_parse
 
 if __name__ == '__main__':
@@ -51,4 +52,5 @@ if __name__ == '__main__':
     print("args:")
     print(args_dict) # Woah! it's a dict with all of the arguments supplied!!
     # Woah types have been inferred (i.e. str, int, float, bool)
-    
+    # Woah, a reasonable help has been printed out if mandatory arguments are missing or the help switch is used!
+    ```
